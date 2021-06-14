@@ -1,12 +1,11 @@
 import java.util.Scanner;
 
-class Prime
-{
-    public static void main(String[] args)
-     {
+public class Pr
+ {
+    public static void main(String[] args) {
         int num,flag=0,i;
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter num:");
+        System.out.println("Enter Num");
         num=sc.nextInt();
         for(i=1;i<=num;i++)
         {
@@ -19,7 +18,7 @@ class Prime
         }
         else
         {
-            System.out.println("Not Prime:");
+            System.out.println("Not Prime");
         }
-    }
+    }    
 }
